@@ -23,6 +23,7 @@ Caso 3: Compresión Huffman (optimización sobre el Gap-Coding utilizando un ár
 El proyecto está desarrollado en C++.
 
 Para compilar el código fuente, abre una terminal en la raíz del repositorio y ejecuta:
+Nota: Si está utilizando un entorno Windows con MinGW, utilice el comando mingw32-make
 
 g++ -O3 -Wall main.cpp Caso_1.cpp Caso_2.cpp Caso_3.cpp -o main
 .\main.exe --benchmark
